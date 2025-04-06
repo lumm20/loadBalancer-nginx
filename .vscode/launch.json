@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "itson.empresariales.Main",
+            "projectName": "client"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServerApplication<server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "itson.empresariales.server.ServerApplication",
+            "projectName": "server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Server2Application<server2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "itson.empresariales.server2.Server2Application",
+            "projectName": "server2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Server3Application<server3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "itson.empresariales.server3.Server3Application",
+            "projectName": "server3",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
