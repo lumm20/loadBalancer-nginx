@@ -13,12 +13,13 @@ public class Controller {
     @GetMapping("/")
     public String getGreeting() {
         System.out.println("Entro alguien nuevo");
-        return "Hola! Estas en el servidor 1";
+        return "Hola! Estas en el servidor";
     }
 
     @GetMapping("/greeting")
     public String getGreetingWithName(@RequestParam String name) {
-        return "Hola, " + name + "!\nTe respondio el servidor 1";
+        System.out.println(name+" pidio un saludo");
+        return "Hola, " + name + "!\nTe respondio el servidor";
     }
     
 }
