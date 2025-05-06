@@ -36,7 +36,7 @@ public class Main {
 
     private static void pedirSaludo(String nombre){
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("http://localhost:8005/greeting?name="+nombre))
+                .uri(URI.create("http://localhost:3000/greeting?name="+nombre))
                 .GET()
                 .build();
 
